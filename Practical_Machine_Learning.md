@@ -182,10 +182,10 @@ result
 corrPlot <- cor(trainData[, -length(names(trainData))])
 corrplot(corrPlot, method="color")
 ```
-![plot of chunk unnamed-chunk-12](figure/fig1.png)
+![plot of fig1](figure/fig1.png)
 2. Decision Tree Visualization
 ```r
 treeModel <- rpart(classe ~ ., data=trainData, method="class")
 prp(treeModel) # fast plot
 ```
-![plot of chunk unnamed-chunk-13](figure/fig2.png)
+![plot of fig2](figure/fig2.png)
