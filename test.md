@@ -1,7 +1,6 @@
 ---
-title: Practical Machine Learning Project Report
-author: "by Hongzheng Wang"
-author: "by Mustafa Ozturk"
+title: Prediction Assignment Writeup
+author: "by Ali al-Abandi"
 output:
   html_document:
     fig_height: 9
